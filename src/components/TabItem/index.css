@@ -1,0 +1,41 @@
+/* Write your CSS here */
+
+.tab-btn {
+  background-color: transparent;
+  border-width: 0;
+  color: #7b8794;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 5px;
+}
+.active-tab-btn {
+  background-color: transparent;
+  border-width: 0;
+  color: #2563eb;
+  font-weight: bold;
+  cursor: pointer;
+  border-bottom: 1.6px solid #2563eb;
+  padding-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .tab-btn {
+    background-color: transparent;
+    border-width: 0;
+    color: #7b8794;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 25px;
+    margin-right: 18px;
+  }
+  .active-tab-btn {
+    background-color: transparent;
+    border-width: 0;
+    color: #2563eb;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 30px;
+    font-size: 25px;
+  }
+}
